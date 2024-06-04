@@ -140,6 +140,13 @@ header.shadow {
 .social a:hover {
   color: var(--hover);
 }
+.social .saweria:hover,
+.social .saweria:hover i {
+  color: #dbf20f; 
+}
+
+
+
 .btn {
   display: inline-block;
   background: var(--main-color);
@@ -263,6 +270,12 @@ span {
 }
 .laravel-bar {
   width: 30%;
+}
+.bootstrap-bar {
+  width: 50%;
+}
+.tailwind-bar {
+  width: 25%;
 }
 
 /* Services */
@@ -523,11 +536,6 @@ form textarea {
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
 }
 
-.wrapper .whatsapp:hover span,
-.wrapper .whatsapp:hover .tooltip,
-.wrapper .whatsapp:hover .tooltip::before {
-  background: #22cf91;
-}
 .wrapper .instagram:hover span,
 .wrapper .instagram:hover .tooltip,
 .wrapper .instagram:hover .tooltip::before {
